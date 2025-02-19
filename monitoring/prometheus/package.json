@@ -11,6 +11,6 @@
   "dependencies": {
     "@audius/libs": "^1.2.111",
     "dotenv": "^16.0.0",
-    "web3": "^1.7.3"
+    "web3": "^4.2.0"
   }
 }
