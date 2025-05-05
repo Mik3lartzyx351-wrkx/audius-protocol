@@ -86,3 +86,4 @@ freezegun==1.2.2
 
 # Dev reload
 watchdog==2.1.7
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
