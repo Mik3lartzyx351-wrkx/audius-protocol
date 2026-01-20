@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "@audius/harmony": "latest",
-    "@audius/sdk": "^6.0.0",
+    "@audius/sdk": "^8.0.0",
     "@hono/zod-validator": "^0.2.2",
-    "hono": "^4.4.6",
+    "hono": "^4.11.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
