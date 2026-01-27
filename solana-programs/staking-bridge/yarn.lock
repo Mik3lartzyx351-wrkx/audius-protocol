@@ -35,10 +35,10 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@certusone/wormhole-sdk-proto-web@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/@certusone/wormhole-sdk-proto-web/-/wormhole-sdk-proto-web-0.0.6.tgz"
-  integrity sha512-LTyjsrWryefx5WmkoBP6FQ2EjLxhMExAGxLkloHUhufVQZdrbGh0htBBUviP+HaDSJBCMPMtulNFwkBJV6muqQ==
+"@certusone/wormhole-sdk-proto-web@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@certusone/wormhole-sdk-proto-web/-/wormhole-sdk-proto-web-0.0.7.tgz#3b4ff42227eaabbd8c89a781df1856b476b03764"
+  integrity sha512-GCe1/bcqMS0Mt+hsWp4SE4NLL59pWmK0lhQXO0oqAKl0G9AuuTdudySMDF/sLc7z5H2w34bSuSrIEKvPuuSC+w==
   dependencies:
     "@improbable-eng/grpc-web" "^0.15.0"
     protobufjs "^7.0.0"
@@ -52,12 +52,12 @@
     "@types/long" "^4.0.2"
     "@types/node" "^18.0.3"
 
-"@certusone/wormhole-sdk@0.9.22":
-  version "0.9.22"
-  resolved "https://registry.npmjs.org/@certusone/wormhole-sdk/-/wormhole-sdk-0.9.22.tgz"
-  integrity sha512-4wZFyqqSQBtTq5S42TCrTAircnRjd0t0OZnFRyMe5qtqk96l5iDwIztKBaIccUW+XDXoGfBhSGooW15tH/IpIQ==
+"@certusone/wormhole-sdk@0.10.18":
+  version "0.10.18"
+  resolved "https://registry.yarnpkg.com/@certusone/wormhole-sdk/-/wormhole-sdk-0.10.18.tgz#a300381b838108d3fc31be2056de976e718029a9"
+  integrity sha512-VuN4AGB018ELkzTT/jN+yWgE6TWqXsHilxxCVWqGctzow2hKSFd8ADUhxhHigies436rS0vPvrgXi6m0J1+Ecw==
   dependencies:
-    "@certusone/wormhole-sdk-proto-web" "0.0.6"
+    "@certusone/wormhole-sdk-proto-web" "0.0.7"
     "@certusone/wormhole-sdk-wasm" "^0.0.1"
     "@coral-xyz/borsh" "0.2.6"
     "@mysten/sui.js" "0.32.2"
@@ -66,7 +66,7 @@
     "@solana/web3.js" "^1.66.2"
     "@terra-money/terra.js" "3.1.9"
     "@xpla/xpla.js" "^0.2.1"
-    algosdk "^1.15.0"
+    algosdk "^2.4.0"
     aptos "1.5.0"
     axios "^0.24.0"
     bech32 "^2.0.0"
@@ -1318,14 +1318,13 @@ algo-msgpack-with-bigint@^2.1.1:
   resolved "https://registry.npmjs.org/algo-msgpack-with-bigint/-/algo-msgpack-with-bigint-2.1.1.tgz"
   integrity sha512-F1tGh056XczEaEAqu7s+hlZUDWwOBT70Eq0lfMpBP2YguSQVyxRbprLq5rELXKQOyOaixTWYhMeMQMzP0U5FoQ==
 
-algosdk@^1.15.0:
-  version "1.24.1"
-  resolved "https://registry.npmjs.org/algosdk/-/algosdk-1.24.1.tgz"
-  integrity sha512-9moZxdqeJ6GdE4N6fA/GlUP4LrbLZMYcYkt141J4Ss68OfEgH9qW0wBuZ3ZOKEx/xjc5bg7mLP2Gjg7nwrkmww==
+algosdk@^2.4.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/algosdk/-/algosdk-2.11.0.tgz#1baae85465c1e12ba963e9754b9fdedd29b06d84"
+  integrity sha512-MJ9xrjBKqG6ItCAR0Z974DG7nvifXsQxlj7HbWkBat4+h/IygwKPEH/v0dQPOYWdTcf5/5lfu+OyEVOsjxvyRQ==
   dependencies:
     algo-msgpack-with-bigint "^2.1.1"
-    buffer "^6.0.2"
-    cross-fetch "^3.1.5"
+    buffer "^6.0.3"
     hi-base32 "^0.5.1"
     js-sha256 "^0.9.0"
     js-sha3 "^0.8.0"
@@ -1642,7 +1641,7 @@ buffer-xor@^1.0.3:
   resolved "https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz"
   integrity sha512-571s0T7nZWK6vB67HI5dyUF7wXiNcfaPPPTl6zYCNApANjIvYJTg7hlud/+cJpdAhS7dVzqMLmfhfHR3rAcOjQ==
 
-buffer@6.0.3, buffer@^6.0.2, buffer@^6.0.3, buffer@~6.0.3:
+buffer@6.0.3, buffer@^6.0.3, buffer@~6.0.3:
   version "6.0.3"
   resolved "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz"
   integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
